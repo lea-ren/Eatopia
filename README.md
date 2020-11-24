@@ -16,11 +16,17 @@ In the system design, we do architecture design, prototype design, interface des
 ### Architecture Design
 The app consists of four main modules, which are menu, share, moments and me modules. Below is the activity diagram of the app.
 
+### Prototype Design
+There are six interfaces apart from login and register interfaces. Users could switch between different module pages at the bottom of the app. In the menu module, users could view the menu plan suggested by system, specific menu details and mark the dish as finished. In the share module, users could share their notes about cooking and other related topics. In the moments' module, users can view the notes of all users in chronological order. In the personal center module, the page gives an overview of diet preference, spicy preference, finished dishes amount and user notes. And users can edit personal information. Below are the prototypes.
 
+### Interface Design
+The app UI style has two characteristics on account of target users and good usability. One is that interface is simple, elegant and clearly organized. The other is that design elements emphasize minimalism and remove redundant decoration to highlight content such as text and pictures of the APP.
+For text, we apply two types of font size in convenience for different parts. Most text are 20sp in font size, including recipe title, username, page header, and so on. The text for the detailed recipe is in a smaller font size of 15sp, because the text is dense. The text of ingredients, kitchenware, cooking steps here are all applied 15sp of font size.
+For color, the main color is designed to be warm and vibrant orange. Since this kind of color is warmer and more appetizing. The color we used is shown below.
+For icon, we use symbolized icons to represent four modules at the navigation bar at the bottom of the APP. And we use orange color and navy color to represent different states.
 
-
-
-
+### Database Design
+There are 4 tables in the database. _User is for users’ information. Testmenu is for menu information. CookedDishes is for recording the dishes user cooked. Notes are for recording the notes users posted. The design of the database schema is shown below.
 
 
 
