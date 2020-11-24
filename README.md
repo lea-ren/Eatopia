@@ -1,6 +1,9 @@
 # Eatopia
 A place to view and share healthy &amp; quick recipe
 
+### How to run
+load the files to Android Studio. Build and run.
+
 ### Project Abstract
 An increasing number of urban young people adopted an unhealthy lifestyle. In detail, they eat unhealthy food, stay up late, and undertake overmuch work. Based on thorough research on target users, the developing team find out the pursuit of convenience contribute to their eating habits. Young people are reluctant to shop, wash dishes, search for menus and need encouragement. This project aimed to provide customized weekly menus. Users are encouraged to do more dishes by themselves to share pictures and flag dishes they have done in the APP. Developers also spent efforts to protect privacy by building a comprehensive login system, ensuring the password is invisible for developers. The APP is based on Java and developed through Android Studio with coherent logic and an online database.
 
