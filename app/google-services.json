@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521659790900",
+    "firebase_url": "https://eateria10-a0239.firebaseio.com",
+    "project_id": "eateria10-a0239",
+    "storage_bucket": "eateria10-a0239.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521659790900:android:17f11bab5778b1448a7c61",
+        "android_client_info": {
+          "package_name": "com.example.eateria10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521659790900-ugfgk4o38cpo9b7cost9fg61i34seuiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eateria10",
+            "certificate_hash": "9751eb10c9465c3c78b59e5b64f6fbfb3d99d7df"
+          }
+        },
+        {
+          "client_id": "521659790900-stq3u95oovfkdsom6ttsb0hcvv8vbps9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB05N8BhXYfw9Mr6BM-vNExuFYtYIiolWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521659790900-stq3u95oovfkdsom6ttsb0hcvv8vbps9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

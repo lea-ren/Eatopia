@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.moments.momentsFragment">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/all_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            note1               -->
+
+            <LinearLayout
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/profileImg_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/profile_8"
+                    />
+                <LinearLayout
+                    android:id="@+id/note1_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/name_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="ABC"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/date_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="2020-05-13"
+                        android:textColor="@color/colorDate"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/content_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="beef steak!"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/pic_1"
+                        android:layout_width="220dp"
+                        android:layout_height="220dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerCrop"/>
+                    <!--                app:srcCompat="@drawable/steak"-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--            note2               -->
+
+            <LinearLayout
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/profileImg_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/profile_6" />
+
+                <LinearLayout
+                    android:id="@+id/note2_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/name_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Xie"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/date_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="2020-03-09"
+                        android:textColor="@color/colorDate"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/content_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="Happy Birthday!"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/pic_2"
+                        android:layout_width="220dp"
+                        android:layout_height="220dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerCrop"/>
+                    <!--                app:srcCompat="@drawable/cake"-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--            note3               -->
+
+            <LinearLayout
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/profileImg_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/profile_4" />
+
+                <LinearLayout
+                    android:id="@+id/note3_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/name_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="Andrew"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/date_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="2020-03-08"
+                        android:textColor="@color/colorDate"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/content_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:text="Finally success! This is so difficult... T T"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/pic_3"
+                        android:layout_width="220dp"
+                        android:layout_height="220dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerCrop"/>
+                    <!--                app:srcCompat="@drawable/menu_48"-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

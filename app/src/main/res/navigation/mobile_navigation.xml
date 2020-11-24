@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.eateria10.ui.menu.menuFragment"
+        android:label="ONE-WEEK MENU"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.eateria10.ui.share.shareFragment"
+        android:label="NEW NOTE"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.eateria10.ui.moments.momentsFragment"
+        android:label="MOMENTS"
+        tools:layout="@layout/fragment_moments" />
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.example.eateria10.ui.me.meFragment"
+        android:label="ME"
+        tools:layout="@layout/fragment_me" />
+    <!-- 同menu里的id
+    连接java的ui
+    顶部tab名字
+    连接layout-->
+</navigation>

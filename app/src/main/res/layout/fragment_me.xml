@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.me.meFragment">
+
+    tools:context=".Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="741dp"
+            android:background="@color/colorAccent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_profile_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/me_profile_pic1"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/my_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="185dp"
+                android:text="Jane You"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="240dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/my_diet"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diet"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/my_spicy"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Spicy"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/my_dish"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dish"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="280dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/my_user_diet"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/my_user_spicy"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="YES"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/my_dish_num"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="19"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="right">
+                <Button
+                    android:id="@+id/my_edit_button"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button"
+                    android:text="Edit"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/my_user_moment"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="40dp"
+                android:text="My notes"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="400dp"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:id="@+id/my_note_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/my_note_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/my_note_3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/my_note_1"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_alignParentStart="true"-->
+            <!--                android:layout_alignParentLeft="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginLeft="25dp"-->
+            <!--                android:layout_marginTop="360dp"-->
+            <!--                android:scaleType="centerCrop"/>            -->
+            <!--            <View-->
+            <!--                android:id="@+id/my_note_cover_1"-->
+            <!--                android:layout_width="130dp"-->
+            <!--                android:layout_height="130dp"-->
+            <!--                android:layout_alignParentLeft="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="345dp"-->
+            <!--                android:background="@drawable/card" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/my_note_2"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginTop="360dp"-->
+            <!--                android:scaleType="centerCrop" />-->
+            <!--            <View-->
+            <!--                android:id="@+id/my_note_cover_2"-->
+            <!--                android:layout_width="130dp"-->
+            <!--                android:layout_height="130dp"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginTop="345dp"-->
+            <!--                android:background="@drawable/card" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/my_note_3"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_alignParentRight="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginRight="25dp"-->
+            <!--                android:layout_marginTop="360dp"-->
+            <!--                android:scaleType="centerCrop"/>-->
+            <!--            <View-->
+            <!--                android:id="@+id/my_note_cover_3"-->
+            <!--                android:layout_width="130dp"-->
+            <!--                android:layout_height="130dp"-->
+            <!--                android:layout_alignParentRight="true"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:layout_marginTop="345dp"-->
+            <!--                android:background="@drawable/card" />-->
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
